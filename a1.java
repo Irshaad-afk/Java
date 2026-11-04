@@ -53,7 +53,7 @@ public class a1{
             else
             {int d = 0;
             for(int j=0;j<r3;j++)
-            if(b[j] == c [r3])
+            if ( c[r3] == b[i])
             d+=1;
             }
             
@@ -73,8 +73,8 @@ public class a1{
 
         System.out.println();
           for(int i=0;i<r3;i++){
-            System.out.println("Array 3:"+c[i]);
-          
+            System.out.println("Array 3:"+c[r3]);
+           
 
         }
       System.out.println();
